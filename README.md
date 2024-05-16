@@ -1,16 +1,4 @@
-# clean_architecture_tdd_bloc
+The only difference between Bloc and Cubit is Cubit don't have events, 
+it has functions and we can directly call the function instead of events.
 
-Clean Architecture and TDD Bloc Design Pattern
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Domain -> Data -> Presentation ----- This is the sequence of Clean development
